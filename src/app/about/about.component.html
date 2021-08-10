@@ -1,0 +1,35 @@
+<section class="about-section my-3">
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="about">
+        <app-content-head [header]="heading"></app-content-head>
+        <p>Hello world!</p>
+        <p>
+          I'm krishan, a 20 years old self-taught Front-end developer, from
+          India
+        </p>
+        <p>
+          I enjoy creating things that live on internet. My interest in web
+          development started back in 2020 when i saw a website that help me to
+          complete my collage assignment, that makes me curious about websites.
+          Since then i start learning things and implement all these staff on my
+          editor and the learning is still go on.
+        </p>
+        <div class="buttons">
+          <app-button
+            [title]="'Profiles'"
+            [caller]="assignProfile"
+          ></app-button>
+          <app-button [title]="'Education'" [caller]="showEdu"></app-button>
+          <app-button [title]="'Skills'" [caller]="assignSkill"></app-button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 p-3">
+      <div class="about-content">
+        <app-education *ngIf="showEducation"></app-education>
+        <app-contain *ngIf="!showEducation" [cards]="dataShow"></app-contain>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+.btn{
+    background-color: #fff;
+    border: 2px solid #7C83FD;
+    color: #7C83FD;
+}
+.btn:hover{
+    background-color: #7C83FD;
+    color: #fff;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}

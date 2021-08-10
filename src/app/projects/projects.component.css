@@ -1,0 +1,22 @@
+.projects-section{
+    padding: 5rem;
+}
+app-button{
+    margin-right: 5%;
+}
+app-card{
+    width: fit-content;
+}
+
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1170px) {
+    .projects-section{
+        text-align: center;
+    }
+}

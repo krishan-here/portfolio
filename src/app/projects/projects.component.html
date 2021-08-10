@@ -1,0 +1,13 @@
+<section class="projects-section">
+  <app-content-head [header]="'Latest works'"></app-content-head>
+  <div class="buttons m-2">
+    <app-button [title]="'Game'" [caller]="assignGame"></app-button>
+    <app-button [title]="'Major'" [caller]="assignMajor"></app-button>
+    <app-button [title]="'Minor'" [caller]="assignMinor"></app-button>
+  </div>
+  <div class="project-content">
+    <div class="project-cards">
+      <app-card *ngFor="let card of showData" [card]="card"></app-card>
+    </div>
+  </div>
+</section>
