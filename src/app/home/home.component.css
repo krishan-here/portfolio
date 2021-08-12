@@ -8,13 +8,13 @@
 }
 .row{
     margin: 0;
-    padding: 10rem;
+    padding: 10%;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
 }
 h1{
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 64px;
 }
 .image{
     width: 21.875rem;

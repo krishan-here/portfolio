@@ -1,6 +1,6 @@
 .row{
     margin: 0;
-    padding: 5rem;
+    padding: 5%;
     font-family: 'Montserrat', sans-serif;
 }
 .about{
@@ -9,7 +9,7 @@
     line-height: 1.5;
 }
 .buttons{
-    margin-top: 2rem;
+    margin-top: 2%;
 }
 app-button{
     margin-right: 5%;
