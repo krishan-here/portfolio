@@ -17,7 +17,8 @@ import { ButtonComponent } from './button/button.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContainComponent } from './contain/contain.component';
 import { ProjectTypePipe } from './project-type.pipe';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { ProjectTypePipe } from './project-type.pipe';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,10 +12,11 @@
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
 }
-/* h1{
-    font-weight: 700;
-    font-size: 64px;
-} */
+h1{
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 1;
+}
 .image{
     width: 21.875rem;
     height: 21.875rem;
