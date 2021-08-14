@@ -33,23 +33,23 @@ export const profiles: dataType[]=[
 export const skills: dataType[]=[
   {
       type: "skills",
-      imageSrc: "../../assets/images/skills/cpp.svg",
+      imageSrc: "/assets/images/skills/cpp.svg",
     },
     {
       type: "skills",
-      imageSrc: "../../assets/images/skills/javascript.svg",
+      imageSrc: "/assets/images/skills/javascript.svg",
     },
     {
       type: "skills",
-      imageSrc:"../../assets/images/skills/html.svg",
+      imageSrc:"/assets/images/skills/html.svg",
     },
     {
       type: "skills",
-      imageSrc: "../../assets/images/skills/css.svg",
+      imageSrc: "/assets/images/skills/css.svg",
     },
     {
       type: "skills",
-      imageSrc: "../../assets/images/skills/mongo.svg",
+      imageSrc: "/assets/images/skills/mongo.svg",
     }
 ];
 
@@ -57,51 +57,51 @@ export const projects: dataType[]=
   [
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/dailyNews.png",
+      imageSrc: "/assets/images/projects/dailyNews.png",
       projectType: 'major',
       url:"https://github.com/krishan-here/DailyNews"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/eCommerce.png",
+      imageSrc: "/assets/images/projects/eCommerce.png",
       projectType: 'major',
       url: "https://github.com/krishan-here/e-commerce"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/spotify.png",
+      imageSrc: "/assets/images/projects/spotify.png",
       projectType: 'major',
       url: "https://github.com/krishan-here/spotify"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/tales.png",
+      imageSrc: "/assets/images/projects/tales.png",
       projectType: 'minor',
       url: "https://github.com/krishan-here/create-story"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/tindog.png",
+      imageSrc: "/assets/images/projects/tindog.png",
       projectType: 'minor',
       url: "https://github.com/krishan-here/tindog"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/todoList.png",
+      imageSrc: "/assets/images/projects/todoList.png",
       projectType:'minor',
       url: "https://github.com/krishan-here/todoList"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/paperMan.png",
+      imageSrc: "/assets/images/projects/paperMan.png",
       projectType:'game',
       url: "https://github.com/krishan-here/paper-man"
     },
     {
       type: 'projects',
-      imageSrc: "../../assets/images/projects/simonGame.png",
+      imageSrc: "/assets/images/projects/simonGame.png",
       projectType:'game',
       url:"https://github.com/krishan-here/game"
     },
-    
+
   ];
