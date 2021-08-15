@@ -6,7 +6,6 @@
   <a href="{{ card.url }}" target="_blank"
     ><h3>{{ card.head }}</h3></a
   >
-  <p>{{ card.content }}</p>
   <div class="show-link" *ngIf="card.type == 'projects'">
     <a href="{{ card.url }}" target="_blank"
       ><fa-icon [icon]="faGithub"></fa-icon>

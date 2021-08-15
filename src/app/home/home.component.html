@@ -1,12 +1,14 @@
 <section class="hero-section">
-  <div class="row">
-    <div class="col-lg-6 col-sm-12 p-3">
-      <h1>Hello ✌🏼,</h1>
-      <h1>I'm Krishan</h1>
-      <p>A front-end Developer</p>
-      <app-button title="Resume"></app-button>
+  <div class="row p-3">
+    <div class="col-md-6 text-center">
+      <div class="info">
+        <h1>Hello ✌🏼,</h1>
+        <h1>I'm Krishan</h1>
+        <p>A front-end Developer</p>
+        <app-button title="Resume" [caller]="getCv"></app-button>
+      </div>
     </div>
-    <div class="col-lg-6 col-sm-12 p-3">
+    <div class="col-md-6">
       <div class="image">
         <img src="assets/images/krishan.png" alt="krishan" />
       </div>

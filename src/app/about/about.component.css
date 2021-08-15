@@ -20,3 +20,11 @@ app-button{
     height: 100%;
     background-color: #7C83FD;
 }
+p{
+  font-size: large;
+}
+@media only screen and (max-width: 650px){
+  p{
+    font-size:unset;
+  }
+}

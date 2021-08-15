@@ -4,3 +4,11 @@
     text-align: center;
     color: #fff;
 }
+p{
+  font-size: large;
+}
+@media only screen and (max-width: 650px){
+  p{
+    font-size: unset;
+  }
+}

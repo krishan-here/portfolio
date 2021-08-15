@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getCv=()=>{
+    open("assets/images/krishan_resume.pdf");
+  }
+
 }

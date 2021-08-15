@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faShare } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faShare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -12,10 +11,10 @@ import { faWhatsapp, faGithub } from '@fortawesome/free-brands-svg-icons';
 export class SocialMediaComponent implements OnInit {
 
   faShare = faShare;
-  faFacebookF= faFacebookF;
+  faEnvelope= faEnvelope;
   faLinkedinIn= faLinkedinIn;
   faWhatsapp= faWhatsapp;
-  
+
   constructor() { }
 
   ngOnInit(): void {
