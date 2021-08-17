@@ -8,19 +8,19 @@ export const profiles: dataType[]=[
       },
       {
         type: 'profiles',
-        head:"Github",
+        head:"GitHub",
         url: "https://github.com/krishan-here"
 
       },
       {
         type: 'profiles',
-        head:"Codechef",
+        head:"CodeChef",
         url: "https://www.codechef.com/users/krishan_here"
 
       },
       {
         type: 'profiles',
-        head:"CodeForce",
+        head:"Codeforces",
         url: "https://codeforces.com/profile/Krishan_here?csrf_token=fcd978a6eb86cd1c6740145be83d81c6"
       },
       {
