@@ -50,7 +50,24 @@ export const skills: dataType[]=[
     {
       type: "skills",
       imageSrc: "assets/images/skills/mongo.svg",
+    },
+    {
+      type: 'skills',
+      imageSrc: 'assets/images/skills/nodejs.svg',
+    },
+    {
+      type: 'skills',
+      imageSrc: 'assets/images/skills/angular.svg',
+    },
+    {
+      type: 'skills',
+      imageSrc: 'assets/images/skills/react.svg',
+    },
+    {
+      type: 'skills',
+      imageSrc: 'assets/images/skills/ionic.svg',
     }
+
 ];
 
 export const projects: dataType[]=
